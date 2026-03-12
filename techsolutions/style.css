@@ -1,0 +1,21 @@
+        body {
+            background-color: #f0f8ff; 
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            border: 2px solid blue; 
+            padding: 15px;
+        }
+        header {
+            text-align: center;
+            background-color: #00008b;
+            color: white;
+            padding: 10px;
+        }
+        img {
+            border: 5px solid #ccc;
+            width: 300px;
+        }
+        .contato {
+            background-color: #e0e0e0;
+            padding: 10px;
+        }
