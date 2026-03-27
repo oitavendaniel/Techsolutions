@@ -1,21 +1,50 @@
-        body {
-            background-color: #f0f8ff; 
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            border: 2px solid blue; 
-            padding: 15px;
-        }
-        header {
-            text-align: center;
-            background-color: #00008b;
-            color: white;
-            padding: 10px;
-        }
-        img {
-            border: 5px solid #ccc;
-            width: 300px;
-        }
-        .contato {
-            background-color: #e0e0e0;
-            padding: 10px;
-        }
+body {
+    background-color: #ffffff; 
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    border:none; 
+    padding: 15px;
+}
+header {
+    text-align: center;
+    background-color: #ffffff;
+    color: white;
+    padding: 10px;
+}
+
+h1{
+    color: rgb(2, 2, 155);
+}
+
+img {
+    width: 100%;       
+    height: 250px;    
+    object-fit: cover; 
+    border: none;     
+}
+.contato {
+    background-color: #ffffff;
+    padding: 10px;
+}
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border-color: #444;
+}
+
+body.dark-mode h1{
+    color: white;
+}
+
+body.dark-mode header {
+    background-color: #1a1a1a;
+}
+
+body.dark-mode .contato {
+    background-color: #333;
+    color: #eee;
+}
+
+body.dark-mode a {
+    color: #add8e6;
+}
